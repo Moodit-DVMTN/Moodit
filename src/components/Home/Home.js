@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import MyCarousel from "../Carousel/MyCarousel";
-// import MyNavbar from '../Navbar/navBar'
+import svgReddit from '../svgFiles/svgReddit'
+
+import SvgTest from '../svgFiles/SvgTest'
 
 class Home extends Component {
   constructor(props) {
@@ -24,10 +26,22 @@ class Home extends Component {
     });
   }
 
+  //--------svg react option to try and add svg to innter html------------
+  // createMarkup() {
+  //   return {__html: SvgWithXlink};
+  // }  
+  //  MyComponent() {
+  //   return <div dangerouslySetInnerHTML={this.createMarkup()} />;
+  // }
+  //----------------------------------------------------------------------
+
   render() {
     return (
       <div>
-        <MyCarousel />
+        <h1>svgReddit should be below this</h1>
+        <svg><SvgTest /></svg>
+      
+ 
       </div>
     );
   }

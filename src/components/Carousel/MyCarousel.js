@@ -7,6 +7,7 @@ import {
   CarouselControl
 } from "mdbreact";
 
+
 class MyCarousel extends Component {
   constructor(props) {
     super(props);
@@ -43,6 +44,16 @@ class MyCarousel extends Component {
       });
     }
   }
+
+  //------------------SVG Animations -----------------------------------
+
+  // morph (){
+  //   TweenMax.to("#start", 1, {morphSVG:{shape:"#end",shapeIndex: 12}, 
+  // fill: "#ff0000",
+  // ease:Bounce.easeOut})
+  // }
+
+  
 
   render() {
     return (
@@ -98,9 +109,12 @@ class MyCarousel extends Component {
             }}
           />
         </Carousel>
+
+
       </div>
     );
   }
 }
 
 export default MyCarousel;
+

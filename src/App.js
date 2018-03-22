@@ -6,11 +6,12 @@ import Map from "./components/Map/Map";
 import Profile from "./components/Profile/Profile";
 import Login from "./components/Login/Login";
 
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapse: true
+      collapse: false
     };
   }
 
@@ -49,6 +50,8 @@ class App extends Component {
               <Route component={Login} path="/Login" />
               <Route component={Profile} path="/Profile" />
               <Route component={Map} path="/Map" />
+
+              
             </Switch>
           </div>
         </BrowserRouter>
