@@ -5,7 +5,7 @@ import MyCarousel from "../Carousel/MyCarousel";
 import PLine from "../PaulsChart/PLine";
 import SvgReddit from "../SVG/SvgReddit";
 import RedditMoods from "../SVG/RedditMoods";
-import MoodditText from "../SVG/MoodditText";
+import MoodditText from "../SVG/MoodditText"; 
 // import MyNavbar from '../Navbar/navBar'
 
 class Home extends Component {
