@@ -37,13 +37,13 @@ class Map extends Component {
 
 
 // Use this for fake data. Comment out when ready to go live
-  componentDidMount() {
-    this.setState({
-      mapInformation: jsonResponse,
-      loading: false,
-      filterBy: 'All'
-    })
-  }
+  // componentDidMount() {
+  //   this.setState({
+  //     mapInformation: jsonResponse,
+  //     loading: false,
+  //     filterBy: 'All'
+  //   })
+  // }
 
   showComment(animatedComments){
     // setInterval( myCallback, 500)
@@ -184,8 +184,8 @@ class Map extends Component {
 
         </div>
           :
-            <div className="shadow">
-              
+            
+              <div className="loading_grid">
               <img
                 className="loading"
                 src={Loading}

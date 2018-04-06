@@ -5,6 +5,7 @@ import { Chart } from "react-chartjs-2";
 // import { Button, Card, CardBody, CardImage, CardText } from "mdbreact";
 import axios from "axios";
 import "./Profile.css";
+import Loading from '../../assets/loading.gif'
 
 class Profile extends Component {
  constructor(props) {
@@ -134,13 +135,20 @@ class Profile extends Component {
              </div>
              :
              <div>
-               <div className="">Loading...
+
+           <div className="loading" >
+                 <img
+                  
+                  src={Loading}
+                />
+           </div>
               
-              <img
+               
+              {/* <img
                 className="Profile_loading"
                 src="loading.svg"
-              />
-            </div>
+              /> */}
+           
              </div>
              }
              <canvas id="barChart" style={{backgroundColor: ''}}></canvas>

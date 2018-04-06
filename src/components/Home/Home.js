@@ -9,7 +9,7 @@ import { Input, Button } from "mdbreact";
 import RedditMoods from "../SVG/RedditMoods";
 import MoodditText from "../SVG/MoodditText";
 // import MyNavbar from '../Navbar/navBar'
-import img1 from "./bgimg.jpg";
+import img1 from "./home_bg_blank.jpg";
 import img2 from "../../assets/img2.jpg";
 import img3 from "../../assets/img3.jpg";
 import happy_reddit from "../../assets/happy_reddit.svg";
@@ -79,9 +79,12 @@ class Home extends Component {
                 </div>
               </form>
             </div>
+            
   
   
                     <div></div>
+
+                    
           </div>
   
         <div className="home_section3">
