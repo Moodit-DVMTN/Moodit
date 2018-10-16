@@ -27,7 +27,8 @@
     "snoowrap": "^1.15.2",
     "styled-components": "^3.2.5",
     "wait-until": "0.0.2",
-    "watson-developer-cloud": "^3.2.1"
+    "watson-developer-cloud": "^3.2.1",
+    "yarn": "^1.10.1"
   },
   "scripts": {
     "start": "react-scripts start",
