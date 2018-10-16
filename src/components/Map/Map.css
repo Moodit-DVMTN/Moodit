@@ -153,8 +153,8 @@ body{
 .card_header h1 {
   font-weight: 600;
 }
-.card_header h2 {
-}
+/* .card_header h2 {
+} */
 .card_header a {
   font-weight: 600;
   color: white;
@@ -299,8 +299,8 @@ body{
   }
 
   ._subreddit img{
-    height: 20px;
-    width: 20px;
+    /* height: 20px;
+    width: 20px; */
     margin-left: 10px;
     margin-right: 3px;
     display: inline;
