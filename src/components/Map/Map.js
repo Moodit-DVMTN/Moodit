@@ -25,7 +25,7 @@ class Map extends Component {
   }
 
 //Change compdidmount to componentDidMount when ready to go live.
-  compdidmount() {
+  componentDidMount() {
     axios.get("/api/comments").then(({ data }) => {
       console.log(data);
       this.setState({
@@ -37,13 +37,13 @@ class Map extends Component {
 
 
 // Use this for fake data. Comment out when ready to go live
-  componentDidMount() {
-    this.setState({
-      mapInformation: jsonResponse,
-      loading: false,
-      filterBy: 'All'
-    })
-  }
+  // componentDidMount() {
+  //   this.setState({
+  //     mapInformation: jsonResponse,
+  //     loading: false,
+  //     filterBy: 'All'
+  //   })
+  // }
 
   showComment(animatedComments){
     // setInterval( myCallback, 500)
